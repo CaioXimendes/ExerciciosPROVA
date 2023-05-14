@@ -18,9 +18,10 @@ for x, times in enumerate(tupla):
         print(f"Ultimos colocados são os times: {times}, na posição: nº {x+1}")
     if times == "Flamengo":
         cont = x
+print()
 print("times em ordem alfabética: \n")\
 
-for y, times2 in enumerate(sorted(tupla)):
-    print(f"time: {times2}, posição: nº {y+1}")
+for times2 in sorted(tupla):
+    print(f"time: {times2}")
 
 print(f"O flamengo está na posição {cont+1}")
